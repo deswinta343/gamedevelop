@@ -1,0 +1,237 @@
+[gd_scene load_steps=37 format=3 uid="uid://cxym1kq6hjlxs"]
+
+[ext_resource type="Script" path="res://Sprite2D.gd" id="1_tlrkp"]
+[ext_resource type="Texture2D" uid="uid://ck7jxitfw7737" path="res://Wolf/Run right/__Wolf_Run_000.png" id="2_t32p8"]
+[ext_resource type="Texture2D" uid="uid://bfl7mfir5lud5" path="res://Wolf/Run right/__Wolf_Run_001.png" id="3_jch5c"]
+[ext_resource type="Texture2D" uid="uid://baocs5ukpgjea" path="res://Wolf/Run right/__Wolf_Run_002.png" id="4_ivnja"]
+[ext_resource type="Texture2D" uid="uid://c641wlveo8i" path="res://Wolf/Run right/__Wolf_Run_003.png" id="5_osmwk"]
+[ext_resource type="Texture2D" uid="uid://ci2mfpcww37r5" path="res://Wolf/Run right/__Wolf_Run_004.png" id="6_u7ure"]
+[ext_resource type="Texture2D" uid="uid://bla2k2svbqvij" path="res://Wolf/Run right/__Wolf_Run_005.png" id="7_kl4rg"]
+[ext_resource type="Texture2D" uid="uid://dt3ahcvdkkdlu" path="res://Wolf/Run right/__Wolf_Run_006.png" id="8_8ussg"]
+[ext_resource type="Texture2D" uid="uid://dfk2nbvs5iw3a" path="res://Wolf/Run right/__Wolf_Run_007.png" id="9_22whm"]
+[ext_resource type="Texture2D" uid="uid://ciypktih30m6o" path="res://Wolf/Run left/__Wolf_Run_000.png" id="10_cyfsm"]
+[ext_resource type="Texture2D" uid="uid://d13v8g4uptjhv" path="res://Wolf/Run left/__Wolf_Run_001.png" id="11_ms606"]
+[ext_resource type="Texture2D" uid="uid://blsh6e5go11i" path="res://Wolf/Run left/__Wolf_Run_002.png" id="12_ld1jb"]
+[ext_resource type="Texture2D" uid="uid://cbve36ip6m386" path="res://Wolf/Run left/__Wolf_Run_003.png" id="13_xu844"]
+[ext_resource type="Texture2D" uid="uid://cniwuu0hiwhnd" path="res://Wolf/Run left/__Wolf_Run_004.png" id="14_fqnxj"]
+[ext_resource type="Texture2D" uid="uid://1n1qnvfl4jlt" path="res://Wolf/Run left/__Wolf_Run_005.png" id="15_3iipx"]
+[ext_resource type="Texture2D" uid="uid://w8tom1opgjao" path="res://Wolf/Run left/__Wolf_Run_006.png" id="16_vqi1g"]
+[ext_resource type="Texture2D" uid="uid://cnswij106lsgl" path="res://Wolf/Run left/__Wolf_Run_007.png" id="17_jbien"]
+[ext_resource type="Texture2D" uid="uid://celq0pp8v4t60" path="res://Wolf/Attack/__Wolf_Attack_000.png" id="18_63qf6"]
+[ext_resource type="Texture2D" uid="uid://bqhma7876y3ms" path="res://Wolf/Attack/__Wolf_Attack_001.png" id="19_iek4c"]
+[ext_resource type="Texture2D" uid="uid://dhnj4smrp2rss" path="res://Wolf/Attack/__Wolf_Attack_002.png" id="20_xqmmj"]
+[ext_resource type="Texture2D" uid="uid://k50mqsastt8l" path="res://Wolf/Attack/__Wolf_Attack_003.png" id="21_hbqn2"]
+[ext_resource type="Texture2D" uid="uid://c4omovyiuqpa4" path="res://Wolf/Attack/__Wolf_Attack_004.png" id="22_2ha3a"]
+[ext_resource type="Texture2D" uid="uid://dwcnp7r0j83t1" path="res://Wolf/Attack/__Wolf_Attack_005.png" id="23_lt4x8"]
+[ext_resource type="Texture2D" uid="uid://b7yfnitl78w8e" path="res://Wolf/Attack/__Wolf_Attack_006.png" id="24_qulfc"]
+[ext_resource type="Texture2D" uid="uid://djt5c1k0voi57" path="res://Wolf/Attack/__Wolf_Attack_007.png" id="25_pvclb"]
+[ext_resource type="Texture2D" uid="uid://tevb1k1i52g0" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png" id="26_u7i2g"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gql4m"]
+texture = ExtResource("26_u7i2g")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_w76hq"]
+sources/0 = SubResource("TileSetAtlasSource_gql4m")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_seie3"]
+size = Vector2(44, 30)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_25ngi"]
+size = Vector2(148.5, 37)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ukddf"]
+size = Vector2(40.5, 31)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8857c"]
+size = Vector2(75, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k6m1q"]
+size = Vector2(179.5, 20)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2i408"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_t32p8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_jch5c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ivnja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_osmwk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_u7ure")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_kl4rg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_8ussg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_22whm")
+}],
+"loop": true,
+"name": &"kanan",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_cyfsm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ms606")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ld1jb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_xu844")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_fqnxj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_3iipx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_vqi1g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_jbien")
+}],
+"loop": true,
+"name": &"kiri",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_63qf6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_iek4c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_xqmmj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_hbqn2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_2ha3a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_lt4x8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_qulfc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_pvclb")
+}],
+"loop": true,
+"name": &"lompat",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6hog2"]
+size = Vector2(87.5436, 95.8516)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_r4r6o"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"jalan",
+"speed": 5.0
+}]
+
+[node name="Node2D" type="StaticBody2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_w76hq")
+format = 2
+layer_0/tile_data = PackedInt32Array(786447, 65536, 0, 851983, 65536, 1, 917519, 65536, 2, 786448, 131072, 0, 851984, 131072, 1, 917520, 131072, 2, 786449, 196608, 0, 851985, 196608, 1, 917521, 196608, 2, 786450, 65536, 0, 851986, 65536, 1, 917522, 65536, 2, 786451, 131072, 0, 851987, 131072, 1, 917523, 131072, 2, 786452, 196608, 0, 851988, 196608, 1, 917524, 196608, 2, 786453, 65536, 0, 851989, 65536, 1, 917525, 65536, 2, 786454, 131072, 0, 851990, 131072, 1, 917526, 131072, 2, 786455, 196608, 0, 851991, 196608, 1, 917527, 196608, 2, 786456, 65536, 0, 851992, 65536, 1, 917528, 65536, 2, 786457, 131072, 0, 851993, 131072, 1, 917529, 131072, 2, 786458, 196608, 0, 851994, 196608, 1, 917530, 196608, 2, 786459, 65536, 2, 851995, 65536, 1, 917531, 65536, 2, 786460, 131072, 2, 851996, 131072, 1, 917532, 131072, 2, 786461, 196608, 2, 851997, 65536, 1, 917533, 65536, 2, 786463, 196608, 0, 851999, 196608, 1, 917535, 196608, 2, 786464, 131072, 0, 852000, 131072, 1, 917536, 131072, 2, 786465, 65536, 1, 852001, 65536, 0, 917537, 65536, 1, 786462, 131072, 0, 851998, 131072, 1, 917534, 131072, 2, 655387, 65536, 0, 720923, 65536, 1, 655388, 131072, 0, 720924, 131072, 1, 655389, 196608, 0, 720925, 196608, 1, 589854, 65536, 0, 655390, 65536, 1, 720926, 65536, 2, 589855, 131072, 0, 655391, 131072, 1, 720927, 131072, 2, 589856, 65536, 0, 655392, 65536, 1, 720928, 65536, 2, 589857, 131072, 0, 655393, 131072, 1, 720929, 65536, 0, 589858, 196608, 0, 655394, 196608, 1, 720930, 131072, 0, 786466, 131072, 1, 852002, 131072, 0, 720931, 65536, 0, 786467, 65536, 1, 852003, 65536, 2, 983073, 65536, 2, 917538, 131072, 1, 983074, 131072, 2, 917539, 65536, 2, 983075, 196608, 2, 786468, 131072, 1, 852004, 131072, 2, 917540, 131072, 2, 786469, 196608, 1, 852005, 65536, 0, 917541, 65536, 1, 720933, 196608, 0, 720934, 131072, 0, 786470, 131072, 1, 852006, 131072, 0, 720935, 65536, 0, 786471, 65536, 1, 852007, 65536, 2, 720932, 131072, 0, 983077, 65536, 2, 917542, 131072, 1, 983078, 131072, 2, 917543, 196608, 1, 983079, 196608, 2, 720936, 131072, 0, 786472, 131072, 1, 852008, 131072, 2, 720937, 196608, 0, 786473, 196608, 1, 852009, 196608, 2, 720938, 65536, 0, 786474, 65536, 1, 852010, 65536, 2, 720939, 131072, 0, 786475, 131072, 1, 852011, 131072, 2, 720940, 196608, 0, 786476, 196608, 1, 852012, 196608, 2)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(265, 209)
+shape = SubResource("RectangleShape2D_seie3")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(355.75, 212.5)
+shape = SubResource("RectangleShape2D_25ngi")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
+position = Vector2(454.75, 179.5)
+shape = SubResource("RectangleShape2D_ukddf")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="."]
+position = Vector2(518, 155)
+shape = SubResource("RectangleShape2D_8857c")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="."]
+position = Vector2(625.25, 187)
+shape = SubResource("RectangleShape2D_k6m1q")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="CharacterBody2D" parent="."]
+position = Vector2(511, 277)
+scale = Vector2(0.679661, 0.629341)
+script = ExtResource("1_tlrkp")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Sprite2D"]
+position = Vector2(-360.474, -182.731)
+scale = Vector2(0.160328, 0.176855)
+sprite_frames = SubResource("SpriteFrames_2i408")
+animation = &"lompat"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D"]
+position = Vector2(-353.117, -174.786)
+shape = SubResource("RectangleShape2D_6hog2")
+debug_color = Color(0, 0.6, 0.701961, 0.419608)
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Sprite2D"]
+position = Vector2(849.298, -260.878)
+scale = Vector2(9.41989, 8.77585)
+sprite_frames = SubResource("SpriteFrames_r4r6o")
+animation = &"jalan"

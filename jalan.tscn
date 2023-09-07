@@ -1,0 +1,168 @@
+[gd_scene load_steps=32 format=3 uid="uid://ce65vvnuqg2hi"]
+
+[ext_resource type="Texture2D" uid="uid://ck7jxitfw7737" path="res://Wolf/Run right/__Wolf_Run_000.png" id="1_ikfgl"]
+[ext_resource type="Texture2D" uid="uid://bfl7mfir5lud5" path="res://Wolf/Run right/__Wolf_Run_001.png" id="2_qwrlt"]
+[ext_resource type="Texture2D" uid="uid://baocs5ukpgjea" path="res://Wolf/Run right/__Wolf_Run_002.png" id="3_tc3cv"]
+[ext_resource type="Texture2D" uid="uid://c641wlveo8i" path="res://Wolf/Run right/__Wolf_Run_003.png" id="4_nkn88"]
+[ext_resource type="Texture2D" uid="uid://ci2mfpcww37r5" path="res://Wolf/Run right/__Wolf_Run_004.png" id="5_safcb"]
+[ext_resource type="Texture2D" uid="uid://bla2k2svbqvij" path="res://Wolf/Run right/__Wolf_Run_005.png" id="6_mpuss"]
+[ext_resource type="Texture2D" uid="uid://dt3ahcvdkkdlu" path="res://Wolf/Run right/__Wolf_Run_006.png" id="7_u2upg"]
+[ext_resource type="Texture2D" uid="uid://dfk2nbvs5iw3a" path="res://Wolf/Run right/__Wolf_Run_007.png" id="8_4jaq5"]
+[ext_resource type="Texture2D" uid="uid://ciypktih30m6o" path="res://Wolf/Run left/__Wolf_Run_000.png" id="9_dm4k7"]
+[ext_resource type="Texture2D" uid="uid://d13v8g4uptjhv" path="res://Wolf/Run left/__Wolf_Run_001.png" id="10_cs3kv"]
+[ext_resource type="Texture2D" uid="uid://blsh6e5go11i" path="res://Wolf/Run left/__Wolf_Run_002.png" id="11_1rkpb"]
+[ext_resource type="Texture2D" uid="uid://cbve36ip6m386" path="res://Wolf/Run left/__Wolf_Run_003.png" id="12_p6at8"]
+[ext_resource type="Texture2D" uid="uid://cniwuu0hiwhnd" path="res://Wolf/Run left/__Wolf_Run_004.png" id="13_jmfwn"]
+[ext_resource type="Texture2D" uid="uid://1n1qnvfl4jlt" path="res://Wolf/Run left/__Wolf_Run_005.png" id="14_x6cxn"]
+[ext_resource type="Texture2D" uid="uid://w8tom1opgjao" path="res://Wolf/Run left/__Wolf_Run_006.png" id="15_406wm"]
+[ext_resource type="Texture2D" uid="uid://cnswij106lsgl" path="res://Wolf/Run left/__Wolf_Run_007.png" id="16_lf1d6"]
+[ext_resource type="Texture2D" uid="uid://celq0pp8v4t60" path="res://Wolf/Attack/__Wolf_Attack_000.png" id="17_58dra"]
+[ext_resource type="Texture2D" uid="uid://bqhma7876y3ms" path="res://Wolf/Attack/__Wolf_Attack_001.png" id="18_1gtou"]
+[ext_resource type="Texture2D" uid="uid://dhnj4smrp2rss" path="res://Wolf/Attack/__Wolf_Attack_002.png" id="19_h6j1w"]
+[ext_resource type="Texture2D" uid="uid://k50mqsastt8l" path="res://Wolf/Attack/__Wolf_Attack_003.png" id="20_4qo4q"]
+[ext_resource type="Texture2D" uid="uid://c4omovyiuqpa4" path="res://Wolf/Attack/__Wolf_Attack_004.png" id="21_k4tbt"]
+[ext_resource type="Texture2D" uid="uid://dwcnp7r0j83t1" path="res://Wolf/Attack/__Wolf_Attack_005.png" id="22_ibdk0"]
+[ext_resource type="Texture2D" uid="uid://b7yfnitl78w8e" path="res://Wolf/Attack/__Wolf_Attack_006.png" id="23_0xg1c"]
+[ext_resource type="Texture2D" uid="uid://djt5c1k0voi57" path="res://Wolf/Attack/__Wolf_Attack_007.png" id="24_wsxj5"]
+
+[sub_resource type="TileSet" id="TileSet_jwgtq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jccer"]
+size = Vector2(44, 30)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l5lal"]
+size = Vector2(148.5, 37)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bhqb1"]
+size = Vector2(40.5, 31)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n43x7"]
+size = Vector2(75, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p6r8h"]
+size = Vector2(179.5, 20)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_esglo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ikfgl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_qwrlt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_tc3cv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_nkn88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_safcb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_mpuss")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_u2upg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_4jaq5")
+}],
+"loop": true,
+"name": &"kanan",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_dm4k7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_cs3kv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_1rkpb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_p6at8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_jmfwn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_x6cxn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_406wm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_lf1d6")
+}],
+"loop": true,
+"name": &"kiri",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_58dra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_1gtou")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_h6j1w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_4qo4q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_k4tbt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_ibdk0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_0xg1c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_wsxj5")
+}],
+"loop": true,
+"name": &"lompat",
+"speed": 5.0
+}]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_jwgtq")
+format = 2
+layer_0/tile_data = PackedInt32Array(786447, 65536, 0, 851983, 65536, 1, 917519, 65536, 2, 786448, 131072, 0, 851984, 131072, 1, 917520, 131072, 2, 786449, 196608, 0, 851985, 196608, 1, 917521, 196608, 2, 786450, 65536, 0, 851986, 65536, 1, 917522, 65536, 2, 786451, 131072, 0, 851987, 131072, 1, 917523, 131072, 2, 786452, 196608, 0, 851988, 196608, 1, 917524, 196608, 2, 786453, 65536, 0, 851989, 65536, 1, 917525, 65536, 2, 786454, 131072, 0, 851990, 131072, 1, 917526, 131072, 2, 786455, 196608, 0, 851991, 196608, 1, 917527, 196608, 2, 786456, 65536, 0, 851992, 65536, 1, 917528, 65536, 2, 786457, 131072, 0, 851993, 131072, 1, 917529, 131072, 2, 786458, 196608, 0, 851994, 196608, 1, 917530, 196608, 2, 786459, 65536, 2, 851995, 65536, 1, 917531, 65536, 2, 786460, 131072, 2, 851996, 131072, 1, 917532, 131072, 2, 786461, 196608, 2, 851997, 65536, 1, 917533, 65536, 2, 786463, 196608, 0, 851999, 196608, 1, 917535, 196608, 2, 786464, 131072, 0, 852000, 131072, 1, 917536, 131072, 2, 786465, 65536, 1, 852001, 65536, 0, 917537, 65536, 1, 786462, 131072, 0, 851998, 131072, 1, 917534, 131072, 2, 655387, 65536, 0, 720923, 65536, 1, 655388, 131072, 0, 720924, 131072, 1, 655389, 196608, 0, 720925, 196608, 1, 589854, 65536, 0, 655390, 65536, 1, 720926, 65536, 2, 589855, 131072, 0, 655391, 131072, 1, 720927, 131072, 2, 589856, 65536, 0, 655392, 65536, 1, 720928, 65536, 2, 589857, 131072, 0, 655393, 131072, 1, 720929, 65536, 0, 589858, 196608, 0, 655394, 196608, 1, 720930, 131072, 0, 786466, 131072, 1, 852002, 131072, 0, 720931, 65536, 0, 786467, 65536, 1, 852003, 65536, 2, 983073, 65536, 2, 917538, 131072, 1, 983074, 131072, 2, 917539, 65536, 2, 983075, 196608, 2, 786468, 131072, 1, 852004, 131072, 2, 917540, 131072, 2, 786469, 196608, 1, 852005, 65536, 0, 917541, 65536, 1, 720933, 196608, 0, 720934, 131072, 0, 786470, 131072, 1, 852006, 131072, 0, 720935, 65536, 0, 786471, 65536, 1, 852007, 65536, 2, 720932, 131072, 0, 983077, 65536, 2, 917542, 131072, 1, 983078, 131072, 2, 917543, 196608, 1, 983079, 196608, 2, 720936, 131072, 0, 786472, 131072, 1, 852008, 131072, 2, 720937, 196608, 0, 786473, 196608, 1, 852009, 196608, 2, 720938, 65536, 0, 786474, 65536, 1, 852010, 65536, 2, 720939, 131072, 0, 786475, 131072, 1, 852011, 131072, 2, 720940, 196608, 0, 786476, 196608, 1, 852012, 196608, 2)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(265, 209)
+shape = SubResource("RectangleShape2D_jccer")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(355.75, 212.5)
+shape = SubResource("RectangleShape2D_l5lal")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
+position = Vector2(454.75, 179.5)
+shape = SubResource("RectangleShape2D_bhqb1")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="."]
+position = Vector2(518, 155)
+shape = SubResource("RectangleShape2D_n43x7")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="."]
+position = Vector2(625.25, 187)
+shape = SubResource("RectangleShape2D_p6r8h")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(268, 157)
+scale = Vector2(0.12824, 0.115968)
+sprite_frames = SubResource("SpriteFrames_esglo")
+animation = &"lompat"
